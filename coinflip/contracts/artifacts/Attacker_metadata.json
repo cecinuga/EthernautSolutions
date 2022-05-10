@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "FACTOR",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "TryTheCode",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "blockValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "side",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Attacker.sol": "Attacker"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Attacker.sol": {
+			"keccak256": "0xb19f96d2889df4ab70cfd5e2ca7d5577a5d87495d1bb8ccbeaad61aa1d221115",
+			"urls": [
+				"bzz-raw://cac586ef5cad40ec2d2bfcae67dc73c60c0e634fcf23fdb60334e3e696d012db",
+				"dweb:/ipfs/QmTbaBcbXpyndhn3hvsfygPAk3ciZj8s7vVSyZNPBn6q3r"
+			]
+		},
+		"openzeppelin-contracts/math/SafeMath.sol": {
+			"keccak256": "0xba5bd954de4ca5dec370b2e6e5b507e480ea5716bc76de044e3f71dd676b65b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09891164fe4795e90efe63245017c0f92d9fea616650b214c4db17b6f0493ec3",
+				"dweb:/ipfs/QmPha9xLNssNt7qKRUoJrFabb3vZBgnUXEQ9UYaktapfBA"
+			]
+		}
+	},
+	"version": 1
+}
